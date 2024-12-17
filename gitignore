@@ -1,0 +1,15 @@
+#!/bin/bash
+echo "# Python .gitignore" > .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
+echo "*.pyo" >> .gitignore
+echo "*.pyd" >> .gitignore
+echo ".Python" >> .gitignore
+echo "build/" >> .gitignore
+echo "dist/" >> .gitignore
+echo "*.egg-info/" >> .gitignore
+echo "venv/" >> .gitignore
+echo "pip-log.txt" >> .gitignore
+echo "pip-delete-this-directory.txt" >> .gitignore
+echo ".env" >> .gitignore
+echo ".idea/" >> .gitignore
